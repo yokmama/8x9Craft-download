@@ -1,0 +1,12 @@
+//迷路脱出
+while(true){
+    //前進、ぶつかったら左へ
+    while(crab.forward()!=true){
+        crab.turnLeft()
+    }
+    //右手側に通路があるなら入る
+    crab.turnRight()
+    if(crab.forward()!=true){
+        crab.turnLeft()
+    }
+}
