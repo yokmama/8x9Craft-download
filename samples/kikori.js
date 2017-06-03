@@ -1,9 +1,9 @@
 crab.dig()
 crab.forward()
-while(crab.isBlockedUp()){
+while(crab.isBlockedUp{
     crab.digUp()
     crab.up()
 }
-while(!crab.isBlockedDown()){
+while(!crab.isBlockedDown){
     crab.down()
 }
