@@ -24,6 +24,31 @@ hackCraft2をインストールするには、以下の手順に従ってくだ�
 2. ダウンロードしたファイルをMinecraftサーバーの`plugins`ディレクトリにコピーします。
 3. サーバーを再起動してプラグインを読み込みます。
 
+## config.ymlの設定
+サーバーを起動すると、自動でpluginsフォルダに hackCraft2というフォルダが生成されます。
+そのフォルダにある、config.yml を変更してください。
+```
+host: localhost
+http_port: 8080
+http_enable: true
+http_path: www
+ws_host: localhost
+monaco_port: 25569
+monaco_enable: true
+scratch_port: 25570
+scratch_enable: true
+openai_token: 
+```
+* host: リンクでクリックしたときに表示するWebサーバのホスト名です
+* http_port: リンクでクリックしたときに表示するWebサーバのポート番号です
+* http_enable: 内部Webサーバーを有効
+* http_path: 内部Webサーバの公開フォルダ
+* ws_host: hackCraft2が動作しているサーバーのホスト名です
+* scratch_port: スクリプトAPIを提供するWebSocketのポート番号です
+* monaco_port: レンダリングAPIを提供するWebSocketのポート番号です
+* scratch_enable: スクリプトAPIを有効
+* monaco_enable: レンダリングAPIを有効
+
 ## 使用方法
 インストール後、以下の基本手順でhackCraft2を使用できます：
 
