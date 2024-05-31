@@ -19,10 +19,18 @@ hackCraft2は、Minecraft内でプログラミングを可能にするプラグ�
 
 ## インストール
 hackCraft2をインストールするには、以下の手順に従ってください：
+1. java ランタイムインストール
+    - https://docs.oracle.com/javase/jp/13/install/overview-jdk-installation.html
+    - 推奨バージョン　17以上
 
-1. [リリースページ](https://github.com/yokmama/8x9Craft-download/tree/master/hackCraft2/plugins)から最新バージョンのhackCraft2をダウンロードします。
-2. ダウンロードしたファイルをMinecraftサーバーの`plugins`ディレクトリにコピーします。
-3. サーバーを再起動してプラグインを読み込みます。
+2. paper minecraftインストール
+    - https://papermc.io/
+    - 編集時点 1.20.4
+
+3. hackCraft2 plugin install
+    - [リリースページ](https://github.com/yokmama/8x9Craft-download/tree/master/hackCraft2/plugins)から最新バージョンのhackCraft2をダウンロードします。
+    - ダウンロードしたファイルをMinecraftサーバーの`plugins`ディレクトリにコピーします。
+    - サーバーを再起動してプラグインを読み込みます。
 
 ## config.ymlの設定
 サーバーを起動すると、自動でpluginsフォルダに hackCraft2というフォルダが生成されます。
