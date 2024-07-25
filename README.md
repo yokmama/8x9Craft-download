@@ -20,7 +20,7 @@ hackCraft2は、Minecraft内でプログラミングを可能にするプラグ�
 
 ## ダウンロード
 下記のページより最新バージョンをダウンロードできます
-- https://yokmama.github.io/8x9Craft-download/
+- https://github.com/yokmama/8x9Craft-download/tree/master/hackCraft2/build
 
 ## インストール
 hackCraft2をインストールするには、以下の手順に従ってください：
