@@ -38,10 +38,10 @@ hackCraft2をインストールするには、以下の手順に従ってくだ�
     - サーバーを再起動してプラグインを読み込みます。
 
 4. world guard plugin install(オプションです。ペットに制約をつけれます)
-   - [world guard](https://dev.bukkit.org/projects/worldguard) 
+   - [world guard download page](https://dev.bukkit.org/projects/worldguard) 
 
 5. world edit plugin install(もしworld guardをいれた場合は依存プラグインになります)
-   - [world edit](https://dev.bukkit.org/projects/worldedit) 
+   - [world edit download page](https://dev.bukkit.org/projects/worldedit) 
 
       
 
@@ -49,7 +49,7 @@ hackCraft2をインストールするには、以下の手順に従ってくだ�
 サーバーを起動すると、自動でpluginsフォルダに hackCraft2というフォルダが生成されます。
 そのフォルダにある、config.yml を変更してください。
 
-localhost で　プログラミングページをホストする場合の設定
+localhost で　プログラミングページをホストする設定
 ```
 host: localhost
 http_port: 8080
@@ -63,7 +63,7 @@ scratch_enable: true
 openai_token: 
 ```
 
-公式サイト で　プログラミングページをホストする場合の設定
+プログラミングページ（公式）を利用する設定
 ```
 host: www.hackcraft2.sakura.ne.jp
 http_port: 80
