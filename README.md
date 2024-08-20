@@ -40,7 +40,7 @@ hackCraft2をインストールするには、以下の手順に従ってくだ�
 4. world guard plugin install(オプションです。ペットに制約をつけれます)
    - [world guard download page](https://dev.bukkit.org/projects/worldguard) 
 
-5. world edit plugin install(もしworld guardをいれた場合は依存プラグインになります)
+5. world edit plugin install(もしworld guardをいれる場合は依存プラグインになるので必須になります)
    - [world edit download page](https://dev.bukkit.org/projects/worldedit) 
 
       
